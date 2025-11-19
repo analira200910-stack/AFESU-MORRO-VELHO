@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Educacional</title>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
-        /* Paleta de cores: Laranja, Amarelo e Rosa */
+        /* Paleta de cores */
         :root {
             --laranja: #e6316d;
             --amarelo: #FFD700;
@@ -26,6 +28,13 @@
         header .nav-link {
             color: white !important;
             font-weight: bold;
+        }
+
+        /* 🔽 DIMINUINDO O CARROSSEL 🔽 */
+        #carrossel img {
+            max-height: 350px;
+            object-fit: cover;
+            width: 100%;
         }
 
         .carousel-caption {
@@ -88,6 +97,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
             </div>
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="imagem/afesu.jpg" class="d-block w-100" alt="Imagem 1">
@@ -96,6 +106,7 @@
                         <p>Aprendizado criativo e inovador.</p>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img src="imagem/maxresdefault.jpg" class="d-block w-100" alt="Imagem 2">
                     <div class="carousel-caption d-none d-md-block">
@@ -103,6 +114,7 @@
                         <p>Conteúdos interativos e educativos.</p>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img src="imagem/OIP.jpg" class="d-block w-100" alt="Imagem 3">
                     <div class="carousel-caption d-none d-md-block">
@@ -110,6 +122,7 @@
                         <p>Desenvolvimento de habilidades essenciais.</p>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img src="https://via.placeholder.com/1200x400/FFA500/ffffff?text=Imagem+4" class="d-block w-100" alt="Imagem 4">
                     <div class="carousel-caption d-none d-md-block">
@@ -118,10 +131,12 @@
                     </div>
                 </div>
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
+
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
                 <span class="visually-hidden">Próximo</span>
@@ -132,52 +147,72 @@
     <!-- Cards Informativos -->
     <section id="cards" class="container my-5">
         <div class="row">
+
             <div class="col-md-4">
                 <div class="card">
                     <img src="imagem/MICRO.webp" class="card-img-top" alt="Matemática">
                     <div class="card-body">
                         <h5 class="card-title">Operador de Microcomputador</h5>
-                        <p class="card-text">Domine o uso do microcomputador e prepare-se para o mercado de trabalho com segurança e eficiência <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=operador%20&pag=1">Saiba mais</a></p>
+                        <p class="card-text">
+                            Domine o uso do microcomputador e prepare-se para o mercado de trabalho com segurança e eficiência 
+                            <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=operador%20&pag=1">Saiba mais</a>
+                        </p>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card">
                     <img src="imagem/power.avif" class="card-img-top" alt="Ciências">
                     <div class="card-body">
                         <h5 class="card-title">Power BI</h5>
-                        <p class="card-text">Aprenda Power BI e eleve sua análise de dados a um novo nível. <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=power%20BI&pag=1">Saiba mais</a></p>
+                        <p class="card-text">
+                            Aprenda Power BI e eleve sua análise de dados a um novo nível.  
+                            <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=power%20BI&pag=1">Saiba mais</a>
+                        </p>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card">
                     <img src="imagem/27a93b_b9f348bf904c4d3281982576346d726d~mv2.jpg" class="card-img-top" alt="História">
                     <div class="card-body">
                         <h5 class="card-title">Implantação de Redes</h5>
-                        <p class="card-text">Aprenda a implementar, configurar e manter redes com segurança e eficiência. <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=implanta%C3%A7%C3%A3o%20de%20redes&pag=1">Saiba mais</a></p>
+                        <p class="card-text">
+                            Aprenda a implementar, configurar e manter redes com segurança e eficiência.  
+                            <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=implanta%C3%A7%C3%A3o%20de%20redes&pag=1">Saiba mais</a>
+                        </p>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card">
                     <img src="imagem/1000_F_373445290_JJrzgSQHbCYrXVq0GdoUqBt72nVzfcxo.jpg" class="card-img-top" alt="Geografia">
                     <div class="card-body">
-                        <h5 class="card-title">Designer de Interface web</h5>
-                        <p class="card-text">Domine os princípios do design digital e desenvolva interfaces que encantam. <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=Designer%20de%20interface%20web&pag=1">Saiba mais</a></p>
+                        <h5 class="card-title">Designer de Interface Web</h5>
+                        <p class="card-text">
+                            Domine os princípios do design digital e desenvolva interfaces que encantam.  
+                            <a href="https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica?pesquisa=Designer%20de%20interface%20web&pag=1">Saiba mais</a>
+                        </p>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card">
                     <img src="imagem/boot.jpg" class="card-img-top" alt="Literatura">
                     <div class="card-body">
                         <h5 class="card-title">Cursos de Bootstrap</h5>
-                        <p class="card-text">Crie layouts profissionais usando Bootstrap, do básico ao avançado. <a href="https://www.sp.senai.br/">Saiba mais</a></p>
-                        
+                        <p class="card-text">
+                            Crie layouts profissionais usando Bootstrap, do básico ao avançado.  
+                            <a href="https://www.sp.senai.br/">Saiba mais</a>
+                        </p>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -185,7 +220,10 @@
     <section id="quem-somos" class="quem-somos text-center">
         <div class="container">
             <h2>Quem Somos?</h2>
-            <p class="lead">Somos uma instituição dedicada à formação de meninas de 7 a 25 anos, oferecendo educação de qualidade em um ambiente criativo, seguro e inspirador. Promovemos aprendizado acessível e estimulamos cada aluna a desenvolver seu potencial, construir confiança e transformar seu futuro. <a href="https://afesu.org.br/">Saiba mais</a></p>
+            <p class="lead">
+                Somos uma instituição dedicada à formação de meninas de 7 a 25 anos, oferecendo educação de qualidade em um ambiente criativo, seguro e inspirador.  
+                <a href="https://afesu.org.br/">Saiba mais</a>
+            </p>
         </div>
     </section>
 
@@ -193,30 +231,36 @@
     <footer id="contato">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-4">
                     <h5>Contato</h5>
                     <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
-                    <p>Email: <a href="mailto:contato@projetoafesu.com">contato@projetoedu.com</a></p>
+                    <p>Email: <a href="mailto:contato@projetoedu.com">contato@projetoedu.com</a></p>
                     <p>CNPJ: 12.345.678/0001-99</p>
                 </div>
+
                 <div class="col-md-4">
                     <h5>Redes Sociais</h5>
                     <p><a href="https://www.facebook.com/afesuoficial/" target="_blank">Facebook</a></p>
                     <p><a href="https://www.instagram.com/afesuoficial/" target="_blank">Instagram</a></p>
                     <p><a href="https://www.linkedin.com/company/afesu" target="_blank">LinkedIn</a></p>
                 </div>
+
                 <div class="col-md-4">
                     <h5>Endereço</h5>
                     <p>Rua Exemplo, 123</p>
                     <p>São Paulo - SP, 01234-567</p>
                 </div>
+
             </div>
+
             <hr>
             <p class="text-center">&copy; 2025 ProjetoEdu. Todos os direitos reservados.</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
